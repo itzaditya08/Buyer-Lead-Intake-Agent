@@ -6,6 +6,9 @@ An autonomous, multi-agent system designed to ingest unstructured buyer inquirie
 
 Real estate agents receive dozens of unstructured inquiries daily. This system acts as an AI teammate that reads these messages, sanitizes them against prompt injections, extracts hard and soft constraints, queries local MLS data, and hands the realtor a clean, structured summary with recommended properties and next steps.
 
+## 🎥 Project Demo
+[Click here to watch the complete workflow and UI demonstration](https://youtu.be/elwzh4neDJg)
+
 ## 🛠 Tech Stack
 
 * **Backend:** Python, FastAPI, Pandas, LangChain, Google Gemini 2.5 Flash
