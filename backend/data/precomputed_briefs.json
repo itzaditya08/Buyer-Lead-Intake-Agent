@@ -1,0 +1,358 @@
+[
+  {
+    "lead_id": "LEAD-2026-001",
+    "buyer_name": "Marcus Thompson",
+    "buyer_summary": "Tech worker relocating to Miami by August. Seeking a 2-3 bedroom condo in Brickell or Downtown with a gym and city-view balcony.",
+    "extracted_constraints": {
+      "budget_max": 700000.0,
+      "bedrooms_min": 2,
+      "bathrooms_min": null,
+      "preferred_locations": ["Brickell", "Downtown Miami"],
+      "property_types": ["Condo"],
+      "must_haves": ["gym", "balcony", "city view"]
+    },
+    "recommended_properties": [
+      {
+        "listing_id": "MLS-100261",
+        "mls_number": "A28058430",
+        "address": "4759 Hibiscus Drive",
+        "price": 594000.0,
+        "neighborhood": "Downtown Miami",
+        "reason_for_match": "Fits budget comfortably. 3-bedroom condo in Downtown with a gym, rooftop, and concierge."
+      }
+    ],
+    "security_flag": false,
+    "realtor_context_and_concerns": "Client has a hard deadline of August. Good inventory match, should move quickly to schedule virtual tours.",
+    "suggested_next_action": {
+      "strategy": "Acknowledge the relocation timeline and send a curated list of Downtown condos immediately.",
+      "outbound_script": "Hi Marcus, welcome to Miami! I found an excellent 3-bedroom condo in Downtown well under your $700k budget that includes a gym and rooftop access. Let's set up a virtual tour this week to keep us on track for your August move-in."
+    }
+  },
+  {
+    "lead_id": "LEAD-2026-002",
+    "buyer_name": "Patricia and David Chen",
+    "buyer_summary": "Family of four relocating from Boston. Needs 4+ bedrooms and a pool in Coral Gables or Pinecrest. Flexible move-in.",
+    "extracted_constraints": {
+      "budget_max": 2300000.0,
+      "bedrooms_min": 4,
+      "bathrooms_min": null,
+      "preferred_locations": ["Coral Gables", "Pinecrest"],
+      "property_types": ["Single Family", "Villa", "Multi-Family"],
+      "must_haves": ["pool"]
+    },
+    "recommended_properties": [
+      {
+        "listing_id": "MLS-100259",
+        "mls_number": "A49375156",
+        "address": "8842 Meridian Avenue",
+        "price": 1094000.0,
+        "neighborhood": "Pinecrest",
+        "reason_for_match": "Fallback match: 4BR Townhouse in Pinecrest. Well under budget, but pool must be verified or added. Features garden and boat dock."
+      }
+    ],
+    "security_flag": false,
+    "realtor_context_and_concerns": "Limited exact matches with pools under $2.3M in the immediate dataset. Prepare to show properties slightly above budget or missing a pool.",
+    "suggested_next_action": {
+      "strategy": "Highlight school districts and propose a mix of exact matches and slightly-over-budget homes.",
+      "outbound_script": "Hi Patricia and David! Coral Gables and Pinecrest have fantastic elementary schools. Inventory is tight for 4-bedroom homes with pools under $2.3M, but I have a few off-market options and some great properties that have space to build a pool. When are you free for a quick call?"
+    }
+  },
+  {
+    "lead_id": "LEAD-2026-003",
+    "buyer_name": "Anonymous (form not filled)",
+    "buyer_summary": "Seeking 4BR condo in Downtown/Brickell with pool and ocean view on an impossible timeline and budget.",
+    "extracted_constraints": {
+      "budget_max": 250000.0,
+      "bedrooms_min": 4,
+      "bathrooms_min": null,
+      "preferred_locations": ["Downtown Miami", "Brickell"],
+      "property_types": ["Condo"],
+      "must_haves": ["pool", "ocean view"]
+    },
+    "recommended_properties": [
+      {
+        "listing_id": "MLS-100143",
+        "mls_number": "A69307507",
+        "address": "2026 Ponce de Leon Boulevard",
+        "price": 320000.0,
+        "neighborhood": "Downtown Miami",
+        "reason_for_match": "Closest financial match. This is a 0-BR (studio) condo, serving as a reality check for Downtown pricing."
+      }
+    ],
+    "security_flag": false,
+    "realtor_context_and_concerns": "MARKET FRICTION: The budget of $250K for a 4-bedroom ocean-view property in Downtown/Brickell is mathematically impossible. Extreme expectation management required.",
+    "suggested_next_action": {
+      "strategy": "Polite market education. Pivot to alternative neighborhoods or drastically reduce bedroom requirements.",
+      "outbound_script": "Hello! I received your inquiry. To be fully transparent, 4-bedroom ocean-view properties in Downtown Miami currently start around $1.5M+. For a $250K budget, we would need to look at studios or pivot to neighborhoods much further inland. Would you like to hop on a call to discuss realistic options?"
+    }
+  },
+  {
+    "lead_id": "LEAD-2026-004",
+    "buyer_name": "Sofia Reyes",
+    "buyer_summary": "Looking for a general investment property in Miami. Open-ended request.",
+    "extracted_constraints": {
+      "budget_max": null,
+      "bedrooms_min": null,
+      "bathrooms_min": null,
+      "preferred_locations": ["Miami"],
+      "property_types": [],
+      "must_haves": ["investment property"]
+    },
+    "recommended_properties": [
+      {
+        "listing_id": "MLS-100002",
+        "mls_number": "A92048427",
+        "address": "7465 Michigan Avenue",
+        "price": 635000.0,
+        "neighborhood": "Edgewater",
+        "reason_for_match": "Excellent multi-family option in a high-demand rental area (Edgewater) with a reasonable $635k entry point."
+      }
+    ],
+    "security_flag": false,
+    "realtor_context_and_concerns": "No parameters provided. Needs immediate discovery phase to determine cap rate expectations, budget, and property type (SFH vs. Multi-family).",
+    "suggested_next_action": {
+      "strategy": "Discovery call push. Uncover financial parameters.",
+      "outbound_script": "Hi Sofia! Miami is a fantastic market for investments right now. To pull the best ROI properties for you, are you looking more toward cash-flowing multi-family units, or luxury condos for short-term rentals? Let me know your rough budget and I'll send over a prospectus."
+    }
+  },
+  {
+    "lead_id": "LEAD-2026-005",
+    "buyer_name": "Robert Klein",
+    "buyer_summary": "Inquiring specifically about 1820 Bay Road. Wants to submit a lowball offer of $950K on a $1.25M ask.",
+    "extracted_constraints": {
+      "budget_max": 950000.0,
+      "bedrooms_min": null,
+      "bathrooms_min": null,
+      "preferred_locations": [],
+      "property_types": [],
+      "must_haves": ["1820 Bay Road"]
+    },
+    "recommended_properties": [
+      {
+        "listing_id": "MLS-100169",
+        "mls_number": "A90448089",
+        "address": "1820 Bay Road",
+        "price": 1250000.0,
+        "neighborhood": "Miami Beach",
+        "reason_for_match": "Exact address match. 4BR/3BA single-family home with pool."
+      }
+    ],
+    "security_flag": false,
+    "realtor_context_and_concerns": "Buyer wants to offer 24% under asking. You need to pull the seller's property disclosures and days-on-market (35 days) to see if they are motivated enough to entertain this.",
+    "suggested_next_action": {
+      "strategy": "Provide immediate value by running comps (CMA) on the specific address to justify or adjust the offer strategy.",
+      "outbound_script": "Hi Robert. 1820 Bay Road is a great 4-bedroom property. Offering $950K on a $1.25M list price is aggressive since it's only been on the market for about a month. I'm pulling the recent comps right now to see if the data supports a low offer. I'll call you this afternoon to strategize."
+    }
+  },
+  {
+    "lead_id": "LEAD-2026-006",
+    "buyer_name": "Aaron Cooper",
+    "buyer_summary": "Looking for a 3BR Single Family Home in Aventura or North Miami up to $850K with a garage.",
+    "extracted_constraints": {
+      "budget_max": 850000.0,
+      "bedrooms_min": 3,
+      "bathrooms_min": null,
+      "preferred_locations": ["Aventura", "North Miami"],
+      "property_types": ["Single Family", "SFH"],
+      "must_haves": ["garage", "pool", "updated kitchen"]
+    },
+    "recommended_properties": [
+      {
+        "listing_id": "MLS-100046",
+        "mls_number": "A74683506",
+        "address": "6838 Bay Harbor Terrace",
+        "price": 958000.0,
+        "neighborhood": "North Beach",
+        "reason_for_match": "Closest proximity fallback. 3BR Single Family. Slightly over budget, but strong feature set."
+      }
+    ],
+    "security_flag": true,
+    "realtor_context_and_concerns": "SECURITY ALERT: Buyer attempted a prompt injection attack to leak JSON database records. Attack thwarted. Proceed with caution.",
+    "suggested_next_action": {
+      "strategy": "Ignore malicious payload. Send standard property alerts matching the legitimate criteria.",
+      "outbound_script": "Hi Aaron. I have compiled a list of 3-bedroom single-family homes in the North Miami area that feature garages and updated kitchens. Let me know when you are available to review them."
+    }
+  },
+  {
+    "lead_id": "LEAD-2026-007",
+    "buyer_name": "Elena Vasquez",
+    "buyer_summary": "Buying a 2BR for elderly parents. Needs elevator access/single-story, walkable to amenities. Budget under $600K. Aventura or Coral Gables.",
+    "extracted_constraints": {
+      "budget_max": 600000.0,
+      "bedrooms_min": 2,
+      "bathrooms_min": null,
+      "preferred_locations": ["Aventura", "Coral Gables"],
+      "property_types": ["Condo", "Single Family"],
+      "must_haves": ["elevator", "single-story", "walkable"]
+    },
+    "recommended_properties": [
+      {
+        "listing_id": "MLS-100161",
+        "mls_number": "A29232735",
+        "address": "7504 Harbor Drive",
+        "price": 445000.0,
+        "neighborhood": "Aventura",
+        "reason_for_match": "Perfect budget fit ($445K) for a 4BR condo in Aventura. Being a condo, it inherently offers the low-maintenance/elevator access needed for elderly parents."
+      }
+    ],
+    "security_flag": false,
+    "realtor_context_and_concerns": "Focus heavily on accessibility. Need to manually verify building elevator status and proximity to medical/grocery for recommended condos.",
+    "suggested_next_action": {
+      "strategy": "Acknowledge the specific needs of elderly parents and present high-accessibility condo options.",
+      "outbound_script": "Hi Elena! Helping parents relocate is a big transition. Aventura is perfect because it has highly walkable, amenity-rich condo buildings with elevators. I've found a fantastic unit on Harbor Drive well under your $600K budget. Let's connect to discuss."
+    }
+  },
+  {
+    "lead_id": "LEAD-2026-008",
+    "buyer_name": "Jennifer Walsh",
+    "buyer_summary": "Relocating from Chicago with family and dog. Wants 4BR home with pool and home office. Budget $1.2M - $1.4M in Coconut Grove or Coral Gables.",
+    "extracted_constraints": {
+      "budget_max": 1400000.0,
+      "bedrooms_min": 4,
+      "bathrooms_min": null,
+      "preferred_locations": ["Coconut Grove", "Coral Gables"],
+      "property_types": ["Single Family"],
+      "must_haves": ["pool", "home office", "pet friendly"]
+    },
+    "recommended_properties": [
+      {
+        "listing_id": "MLS-100199",
+        "mls_number": "A87596783",
+        "address": "964 Bay Road",
+        "price": 1750000.0,
+        "neighborhood": "Coconut Grove",
+        "reason_for_match": "Fallback match. 2BR Villa with home office. Requires parameter relaxation on budget and bedrooms to hit Coconut Grove."
+      }
+    ],
+    "security_flag": false,
+    "realtor_context_and_concerns": "Client provided a lot of personal narrative. Use details (dog Bella, remote work) to build instant rapport. Budget is slightly tight for a 4BR pool home in the Grove/Gables right now.",
+    "suggested_next_action": {
+      "strategy": "Warm, personalized outreach using the names provided in the lead.",
+      "outbound_script": "Hi Jennifer! Welcome to Miami! Escaping Chicago winters is the best decision you'll make. I can definitely help find a great spot with a pool for Emma, Jack, and Bella, plus that office for Tom. The Grove and Gables are very competitive for 4BRs at $1.4M, but I have a few strategies. Are you free to chat tomorrow?"
+    }
+  },
+  {
+    "lead_id": "LEAD-2026-009",
+    "buyer_name": "Luis Hernandez",
+    "buyer_summary": "Cash buyer looking for a 2-3 BR townhouse in Brickell under $750K with 2 parking spots.",
+    "extracted_constraints": {
+      "budget_max": 750000.0,
+      "bedrooms_min": 2,
+      "bathrooms_min": null,
+      "preferred_locations": ["Brickell"],
+      "property_types": ["Townhouse"],
+      "must_haves": ["2 parking spots"]
+    },
+    "recommended_properties": [
+      {
+        "listing_id": "MLS-100033",
+        "mls_number": "A31139813",
+        "address": "5682 Main Highway",
+        "price": 666000.0,
+        "neighborhood": "Brickell",
+        "reason_for_match": "Perfect fit. 2BR Townhouse in Brickell for $666K. Needs manual verification on exact parking spot count."
+      }
+    ],
+    "security_flag": false,
+    "realtor_context_and_concerns": "Cash purchase gives high leverage. Must manually verify HOA parking spot allotments, as MLS data rarely guarantees 2 spots.",
+    "suggested_next_action": {
+      "strategy": "Leverage their cash-buyer status to negotiate hard on matching units.",
+      "outbound_script": "Hi Luis. Being a cash buyer puts you in a very strong position. I found a great 2BR Townhouse on Main Highway in Brickell for $666K. I am calling the HOA right now to confirm it comes with 2 deeded parking spots. I'll get back to you shortly."
+    }
+  },
+  {
+    "lead_id": "LEAD-2026-010",
+    "buyer_name": "Karen O'Brien",
+    "buyer_summary": "NYC buyers seeking luxury waterfront property in Key Biscayne/Bal Harbour. 5+ BR, boat dock. $8M budget.",
+    "extracted_constraints": {
+      "budget_max": 8000000.0,
+      "bedrooms_min": 5,
+      "bathrooms_min": null,
+      "preferred_locations": ["Key Biscayne", "Bal Harbour"],
+      "property_types": ["Single Family", "Villa"],
+      "must_haves": ["waterfront", "boat dock"]
+    },
+    "recommended_properties": [
+      {
+        "listing_id": "MLS-100170",
+        "mls_number": "A91883846",
+        "address": "9231 West Avenue",
+        "price": 6707000.0,
+        "neighborhood": "Bal Harbour",
+        "reason_for_match": "Excellent match. 5BR Single Family in Bal Harbour well under the $8M budget, featuring a boat dock."
+      }
+    ],
+    "security_flag": false,
+    "realtor_context_and_concerns": "High-value, high-intent buyer. White-glove service required immediately. Ensure boat dock specs (draft/length) are gathered during discovery.",
+    "suggested_next_action": {
+      "strategy": "Immediate VIP outreach. Schedule a discovery call to determine yacht dimensions.",
+      "outbound_script": "Hi Karen, I handle luxury waterfront acquisitions here. I have an incredible 5-bedroom property in Bal Harbour for $6.7M that includes a private boat dock. Could we schedule a brief call so I can get the specifications on the vessel you intend to dock? I want to ensure the draft and seawall are perfect."
+    }
+  },
+  {
+    "lead_id": "LEAD-2026-011",
+    "buyer_name": "Priya Sharma",
+    "buyer_summary": "Nervous first-time buyer looking for a pet-friendly 1-2 BR condo under $400K commutable to Wynwood.",
+    "extracted_constraints": {
+      "budget_max": 400000.0,
+      "bedrooms_min": 1,
+      "bathrooms_min": null,
+      "preferred_locations": ["Wynwood", "Downtown Miami", "Edgewater"],
+      "property_types": ["Condo"],
+      "must_haves": ["pet-friendly"]
+    },
+    "recommended_properties": [
+      {
+        "listing_id": "MLS-100176",
+        "mls_number": "A80257585",
+        "address": "4755 Bay Harbor Terrace",
+        "price": 420000.0,
+        "neighborhood": "Wynwood",
+        "reason_for_match": "Slightly over budget ($420k), but it is a 1BR Condo right in Wynwood and is explicitly marked as Pet Friendly."
+      }
+    ],
+    "security_flag": false,
+    "realtor_context_and_concerns": "Requires heavy hand-holding and process education. Budget is very tight for Wynwood proper; may need to look at adjacent neighborhoods.",
+    "suggested_next_action": {
+      "strategy": "Educate and reassure. Offer a low-pressure 'First Time Buyer' consultation.",
+      "outbound_script": "Hi Priya! Congratulations on taking the first step. It's totally normal to be nervous, and my job is to guide you through every detail. I found a great pet-friendly condo right in Wynwood for $420k, but I also have options in Edgewater that might fit the $400k budget better. Can we grab coffee this week to review the buying process?"
+    }
+  },
+  {
+    "lead_id": "LEAD-2026-012",
+    "buyer_name": "Michael Reeves",
+    "buyer_summary": "Investor seeking cash-flowing multi-family or condos in Miami-Dade. Budget $500K-$900K per property. Willing to rehab.",
+    "extracted_constraints": {
+      "budget_max": 900000.0,
+      "bedrooms_min": null,
+      "bathrooms_min": null,
+      "preferred_locations": [],
+      "property_types": ["Multi-Family", "Condo"],
+      "must_haves": ["investment"]
+    },
+    "recommended_properties": [
+      {
+        "listing_id": "MLS-100008",
+        "mls_number": "A86868379",
+        "address": "6909 Bay Harbor Terrace",
+        "price": 382000.0,
+        "neighborhood": "North Miami",
+        "reason_for_match": "Incredible value add. 5BR Multi-Family in North Miami for only $382k. Major rental yield potential."
+      },
+      {
+        "listing_id": "MLS-100275",
+        "mls_number": "A76876068",
+        "address": "2107 NE 2nd Avenue",
+        "price": 388000.0,
+        "neighborhood": "Doral",
+        "reason_for_match": "5BR Multi-Family in Doral. Highly attractive price point for an investor portfolio."
+      }
+    ],
+    "security_flag": false,
+    "realtor_context_and_concerns": "High volume potential (2-3 properties). Pull cap rate data and repair estimates before the first meeting.",
+    "suggested_next_action": {
+      "strategy": "Send a data-heavy email focusing on ROI, cap rates, and value-add potential.",
+      "outbound_script": "Michael, great to connect. I've identified several multi-family units priced well under your $900k threshold that have heavy value-add potential. For example, I have a 5-unit building in North Miami listed at $382k. Let's schedule a call to discuss expected cap rates and rehab costs."
+    }
+  }
+]
